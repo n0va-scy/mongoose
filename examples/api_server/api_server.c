@@ -90,10 +90,12 @@ int main(int argc, char *argv[]) {
 
   /* Run event loop until signal is received */
   printf("Starting RESTful server on port %s\n", s_http_port);
+  /*
   while (s_sig_num == 0) {
     mg_mgr_poll(&mgr, 1000);
   }
-
+  */
+  mg_mgr_poll(&mgr, 100);
   /* Cleanup */
   mg_mgr_free(&mgr);
   db_close(&s_db_handle);
