@@ -1,4 +1,4 @@
-# Mongoose - Embedded Web Server / Embedded Networking Library testing if it work
+# Mongoose - Embedded Web Server / Embedded Networking Library 
 
 ![](https://img.shields.io/badge/license-GPL_2-green.svg "License")
 
