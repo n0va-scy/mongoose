@@ -95,7 +95,7 @@ int main(int argc, char *argv[]) {
     mg_mgr_poll(&mgr, 1000);
   }
   */
-  mg_mgr_poll(&mgr, 100);
+  mg_mgr_poll(&mgr, 10);
   /* Cleanup */
   mg_mgr_free(&mgr);
   db_close(&s_db_handle);
